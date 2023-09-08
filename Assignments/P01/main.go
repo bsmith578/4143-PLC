@@ -22,7 +22,7 @@
 *        mascot.go      : Go file that holds BestMascot() func
 *        mascot_test.go : Go file to test proper functionality of BestMascot()
 *        main.go        : main driver file that calls BestMascot()
-*		 go.mod			: describes module's properties
+*		 go.mod			: holds module's properties required to run Go
 *****************************************************************************/
 
 package main
