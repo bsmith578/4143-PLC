@@ -34,5 +34,6 @@ import (
 )
 
 func main() {
+	// calls BestMascot() from mascot.go
 	fmt.Println(mascot.BestMascot())
 }
