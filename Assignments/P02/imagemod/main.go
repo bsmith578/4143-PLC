@@ -3,7 +3,7 @@
 package main
 
 import (
-	"Assignments/P02/imagemod/imageManipulator"
+	"github.com/bsmith578/4143-PLC/tree/main/Assignments/P02/imagemod/imageManipulator"
 )
 
 func main() {
