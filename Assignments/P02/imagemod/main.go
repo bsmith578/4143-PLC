@@ -2,7 +2,7 @@
 
 package main
 
-import "example.com/go/pkg/mod/github.com/bsmith578/4143-!p!l!c@v0.0.0-20230918220341-105bb03207ec/Assignments/P02/imagemod/imageManipulator"
+import "github.com/bsmith578/4143-PLC/tree/main/Assignments/P02/imageManipulator"
 
 func main() {
 	// Create an ImageManipulator instance
