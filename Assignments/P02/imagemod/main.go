@@ -4,15 +4,13 @@ package main
 
 import (
 	"fmt"
-	"myimageapp/imagemod/imageManipulator"
+	"myimageapp/imageManipulator"
 )
 
 func main() {
-	// Create an ImageManipulator instance
-	im := imageManipulator.NewImageManipulator(800, 600)
 
 	// Create an ImageManipulator instance with an existing image
-	im, err := imagemod.NewImageManipulatorWithImage("mustangs.jpg")
+	im, err := imageManipulator.NewImageManipulatorWithImage("mustangs.jpg")
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
