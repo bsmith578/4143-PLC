@@ -16,7 +16,7 @@
 *		 SaveToFile() saves the manipulated image to a new file
 *		 DrawRectangle() draws a rectagle of specified size around an image
 *		 NewImageManipulatorWithImage() loads an existing image and creates
-* 		 								an ImageManipulator instance
+* 		 	an ImageManipulator instance
 *
 *  Files:
 *        imageManipulator.go : contians functions for image manipulation
