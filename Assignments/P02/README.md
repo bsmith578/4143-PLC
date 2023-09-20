@@ -9,6 +9,4 @@ main.go file and a test file.
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | []()      |  |
-|   2   | []()      |  |
-|   3   | []()     |  |
+|   1   | [imagemod](https://github.com/bsmith578/4143-PLC/tree/main/Assignments/P02/imagemod) | Go module that contains the go.mod, main.go, and other packages |
