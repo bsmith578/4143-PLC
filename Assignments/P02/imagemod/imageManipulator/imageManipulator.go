@@ -1,3 +1,27 @@
+/*****************************************************************************
+*  Author:           Brett Smith
+*  Email:            brettsmith578@gmail.com
+*  Label:            P02
+*  Title:            Program 2 - Baby Steps
+*  Course:           CMPS 4143 - PLC
+*  Semester:         Fall 2023
+*
+*  Description:
+*        This program contains the necessary functions used in main.go for
+*		 the image manipulation
+*
+*  Usage:
+*        ImageManipulator() creates an image manipulation tool.
+*		 NewImageManipulator() creates an instance of an ImageManipulator
+*		 SaveToFile() saves the manipulated image to a new file
+*		 DrawRectangle() draws a rectagle of specified size around an image
+*		 NewImageManipulatorWithImage() loads an existing image and creates
+* 		 								an ImageManipulator instance
+*
+*  Files:
+*        imageManipulator.go : contians functions for image manipulation
+*****************************************************************************/
+
 // imagemod/imageManipulator/imageManipulator.go
 
 package imageManipulator
