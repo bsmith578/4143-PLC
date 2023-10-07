@@ -32,8 +32,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/bsmith578/img_mod/ColorText"
 	"github.com/bsmith578/img_mod/Colors"
 	"github.com/bsmith578/img_mod/GetPic"
@@ -41,7 +39,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello")
 	GetPic.DownloadPic()
 	Colors.GetRGB()
 	Grayscale.Grayscale()
