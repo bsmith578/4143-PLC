@@ -10,13 +10,13 @@ add colored text to an image, grayscale an image, and download an image from the
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | [img_mod](https://github.com/bsmith578/img_mod) | Go module containing packages for certain image manipulations |
-|   2   | [main.go]() | main driver function for the program |
-|   3   | [go.mod]() | contains module's properties required to run the program |
-|   4   | [go.sum]() | contains checksums for dependencies |
-|   5   | [colors.jpg]() | the original image downloaded |
-|   6   | [colors_labeled.jpg]() | example of colored text on an image |
-|   7   | [colors_gray_scale.jpg]() | grayscale of downloaded image |
-|   8   | [color_pixel_counts.txt]() | RGB values of downloaded image's pixels |
+|   2   | [main.go](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/main.go) | main driver function for the program |
+|   3   | [go.mod](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/go.mod) | contains module's properties required to run the program |
+|   4   | [go.sum](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/go.sum) | contains checksums for dependencies |
+|   5   | [colors.jpg](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/colors.jpg) | the original image downloaded |
+|   6   | [colors_labeled.jpg](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/colors_labeled.jpg) | example of colored text on an image |
+|   7   | [colors_gray_scale.jpg](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/colors_gray_scale.jpg) | grayscale of downloaded image |
+|   8   | [color_pixel_counts.txt](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P03/ColorTest/color_pixel_counts.txt) | RGB values of downloaded image's pixels |
 
 ### Usage
 
