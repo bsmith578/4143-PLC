@@ -2,7 +2,7 @@ module ColorTest
 
 go 1.21.0
 
-require github.com/bsmith578/img_mod v0.0.0-20231005213908-bb0e8da87083
+require github.com/bsmith578/img_mod v0.0.0-20231006184309-ae637a49441c
 
 require (
 	github.com/fogleman/gg v1.3.0 // indirect

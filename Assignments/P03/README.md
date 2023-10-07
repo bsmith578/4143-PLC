@@ -10,7 +10,27 @@ add colored text to an image, grayscale an image, and download an image from the
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | [img_mod](https://github.com/bsmith578/img_mod) | Go module containing packages for certain image manipulations |
+|   2   | [main.go]() | main driver function for the program |
+|   3   | [go.mod]() | contains module's properties required to run the program |
+|   4   | [go.sum]() | contains checksums for dependencies |
+|   5   | [colors.jpg]() | the original image downloaded |
+|   6   | [colors_labeled.jpg]() | example of colored text on an image |
+|   7   | [colors_gray_scale.jpg]() | grayscale of downloaded image |
+|   8   | [color_pixel_counts.txt]() | RGB values of downloaded image's pixels |
 
 ### Usage
 
-To use this package, run `go get https://github.com/bsmith578/img_mod`
+To use this package, run `go get https://github.com/bsmith578/img_mod/ColorText`
+                         `go get https://github.com/bsmith578/img_mod/Colors`
+                         `go get https://github.com/bsmith578/img_mod/GetPic`
+                         `go get https://github.com/bsmith578/img_mod/Grayscale`
+
+### Example commands
+
+GetPic.DownloadPic() - Asks for URL of an image, downloads the image, and saves it
+
+Colors.GetRGB() - Takes the downloaded image and calculates the RGB for each pixel
+
+Grayscale.Grayscale() - Takes the RGB of the image and turns it to grayscale
+
+ColorText.ColorText() - Shows an example of colored text on an image
