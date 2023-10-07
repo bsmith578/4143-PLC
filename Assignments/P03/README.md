@@ -21,10 +21,10 @@ add colored text to an image, grayscale an image, and download an image from the
 ### Usage
 
 To use this package, run: 
-    - `go get https://github.com/bsmith578/img_mod/ColorText`
-    - `go get https://github.com/bsmith578/img_mod/Colors`
-    - `go get https://github.com/bsmith578/img_mod/GetPic`
-    - `go get https://github.com/bsmith578/img_mod/Grayscale`
+    - `go get github.com/bsmith578/img_mod/ColorText`
+    - `go get github.com/bsmith578/img_mod/Colors`
+    - `go get github.com/bsmith578/img_mod/GetPic`
+    - `go get github.com/bsmith578/img_mod/Grayscale`
 
 ### Example commands
 
