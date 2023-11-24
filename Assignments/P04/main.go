@@ -5,11 +5,13 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"sync"
 	"time"
 )
 
 // Sequential version of the image downloader.
 func downloadImagesSequential(urls []string) {
+	// loop through "urls" array and download each image individually
 	for i, url := range urls {
 		downloadImage(url, fmt.Sprintf("s_img%d.jpg", i+1))
 	}
@@ -17,7 +19,25 @@ func downloadImagesSequential(urls []string) {
 
 // Concurrent version of the image downloader.
 func downloadImagesConcurrent(urls []string) {
-	// TODO: Implement concurrent download logic
+	// wait group that waits for all go routines to finish
+	var wg sync.WaitGroup
+
+	for i, url := range urls {
+		// increment wait group counter to 1, once the go
+		// routines finish it becomes 0 the routines are released
+		wg.Add(1)
+
+		// creates a go routine creating threads to
+		// download the images in "urls" concurrently
+		go func(i int, url string) {
+			defer wg.Done()
+
+			downloadImage(url, fmt.Sprintf("c_img%d.jpg", i+1))
+		}(i, url)
+	}
+
+	// waits until the wait group counter is 0 and all go routines are finished
+	wg.Wait()
 }
 
 func main() {
@@ -35,9 +55,9 @@ func main() {
 	fmt.Printf("Sequential download took: %v\n", time.Since(start))
 
 	// Concurrent download
-	//start = time.Now()
-	//downloadImagesConcurrent(urls)
-	//fmt.Printf("Concurrent download took: %v\n", time.Since(start))
+	start = time.Now()
+	downloadImagesConcurrent(urls)
+	fmt.Printf("Concurrent download took: %v\n", time.Since(start))
 }
 
 // Helper function to download and save a single image.
