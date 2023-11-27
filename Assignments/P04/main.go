@@ -1,3 +1,31 @@
+/*****************************************************************************
+*  Author:           Brett Smith
+*  Email:            brettsmith578@gmail.com
+*  Label:            P04
+*  Title:            Program 4 - Concurrent Image Downloader
+*  Course:           CMPS 4143 - PLC
+*  Semester:         Fall 2023
+*
+*  Description:
+*        This program test two methods of downloading images from the internet.
+*		 The first is downloading each image sequentially and the other downloads
+*		 the images concurrently. The program tests each method and prints the
+*		 time taken for each to show how much faster concurrent downloading is
+*		 using Goroutines. Goroutines are lightweight threads that are managed
+*		 during the runtime of a program.
+*
+*  Usage:
+*        To use this program, paste the image URLs into the 'urls' array. Once the
+*		 URLs are in the array run the program by entering "go run main.go" in the
+*		 command line of the terminal. The program will then download the images
+*		 sequentially and concurrently, giving them each a unique name, and print
+*		 the download times taken for each method.
+*
+*  Files:
+*        main.go 	  			: main driver file for the program
+*		 go.mod  	  			: contains module's properties required to run the program
+*****************************************************************************/
+
 package main
 
 import (
