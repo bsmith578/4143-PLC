@@ -13,5 +13,5 @@ during the runtime of a program.
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | [main.go]() | Main driver code for the program |
-|   2   | [go.mod]() | contains module's properties required to run the program |
+|   1   | [main.go](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P04/main.go) | Main driver code for the program |
+|   2   | [go.mod](https://github.com/bsmith578/4143-PLC/blob/main/Assignments/P04/go.mod) | contains module's properties required to run the program |
