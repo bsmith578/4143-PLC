@@ -7,7 +7,9 @@ The first is downloading each image sequentially and the other downloads
 the images concurrently. The program tests each method and prints the
 time taken for each to show how much faster concurrent downloading is
 using Goroutines. Goroutines are lightweight threads that are managed
-during the runtime of a program.
+during the runtime of a program. After running the program the sequential
+download of the five images took 862 ms while the concurrent download
+took 296 ms.
 
 ### Files
 
